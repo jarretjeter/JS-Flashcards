@@ -1,0 +1,27 @@
+li {
+  cursor: pointer;
+  font-size: 26px;
+  margin: 10px;
+}
+span{
+  display: none;
+  font-size: 16px;
+}
+.definition {
+  color: crimson;
+}
+#javaDef {
+  display: none;
+}
+#opDef {
+  display: none;
+}
+#varDef {
+  display: none;
+}
+#funDef {
+  display: none;
+}
+#methDef {
+  display: none;
+}

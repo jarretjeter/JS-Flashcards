@@ -1,17 +1,36 @@
 $(document).ready(function() {
+  $('.clickable').click(function()  {
+    // $('#clickable').toggle();
+    // $('#clickable').toggle();
+  });
+  $("#javaPrompt").click(function() {
+    // $("li").removeClass();
+    $("#javaDef").toggle();
+    $("#javaDef").addClass("definition")
+  });
   
-  $("h1").click(function() {
-    alert("This is a heading.");
+  $("#opPrompt").click(function() {
+    $("#opDef").toggle();
+    $("#opDef").addClass("definition");
   });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
+  $("#varPrompt").click(function() {
+    $("#varDef").toggle();
+    $("#varDef").addClass("definition");
   });
 
-  $("img").click(function() {
-    alert("This is an image.");
+  $("#funPrompt").click(function() {
+    $("#funDef").toggle();
+    $("#funDef").addClass("definition");
   });
+
+  $("#methPrompt").click(function() {
+    $("#methDef").toggle();
+    $("#methDef").addClass("definition");
+  });
+
 });
+
 
 
 
